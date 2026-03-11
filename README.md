@@ -61,18 +61,4 @@ python server.py
 
 Essa UI usa os mesmos métodos do `rsa.py` e é apenas para demonstração local. Não exponha em produção.
 
-## Sobre o vídeo demonstrativo
 
-Você deve gravar um vídeo de até 5 minutos que mostre:
-- Execução de `demo.py` ou fluxo equivalente.
-- Impressão das chaves (N, e e, opcionalmente, d parcial/truncado).
-- Cifrar uma mensagem e em seguida decifrá-la com a chave privada.
-
-Sugestão de comandos para gravação:
-- Abra o PowerShell no diretório do projeto
-- Rode `python demo.py`
-- Mostre saída e comente brevemente cada etapa
-
-## Licença e avisos
-
-Implementação educacional. Não use em produção sem adaptações de segurança (padding, geração de KDFs, proteção contra ataques laterais, etc.).
